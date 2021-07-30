@@ -15,7 +15,7 @@ export class LoginComponent implements OnInit {
   constructor(private _router: Router) { }
 
   ngOnInit() {
-    this.loginUser.username = "s"
+    this.loginUser.name = "s"
     this.loginUser.password = "123"
 
     let result = localStorage.getItem(AppConstants.LOCAL_STORAGE_USER_KEY);
