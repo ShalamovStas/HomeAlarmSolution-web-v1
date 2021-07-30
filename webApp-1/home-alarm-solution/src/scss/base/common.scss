@@ -1,0 +1,12 @@
+
+$animation-speed: .3s;
+
+button{
+    cursor: pointer;
+    @include multi-transition($animation-speed, color, background-color, border-color);
+}
+
+.shadow-anim {
+    -webkit-transition: .3s all;
+    transition: .3s all;
+  }

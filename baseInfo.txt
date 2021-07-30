@@ -1,3 +1,9 @@
 **
 FireBase project
 https://console.firebase.google.com/u/0/project/homealarmsolution-ac43a/overview
+
+base web app url
+https://homealarmsolution-ac43a.web.app
+
+to deploy
+firebase deploy
